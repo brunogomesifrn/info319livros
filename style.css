@@ -1,0 +1,25 @@
+.espaco{
+	margin: 0px 0px 0px 100px;
+}
+.conteiner{
+	font-family: 'Bree Serif', serif;
+
+}
+.logo{
+
+	margin: 10px 0px 20px 0px;
+	width: 250px;
+}
+.cornavbar{
+	color: white;
+}
+.fundo1{
+	height: 900px;
+}
+.rolagemlivros{
+	text-align: center;
+	padding: 100px;
+}
+.oferta{
+	text-align: center;
+}
