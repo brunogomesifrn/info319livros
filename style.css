@@ -34,7 +34,13 @@
 	text-align: center;
 }
 .addcarrinho{
-	position: center;
-	color-bottom: #ff8f49;
+		margin-bottom: 10px ; 
+		background-color:#ff8f49;
+		border-color: #ff8f49;
 
+}
+.addcarinho::hover
+
+.tamanhobooks{
+	height: 300px;
 }
