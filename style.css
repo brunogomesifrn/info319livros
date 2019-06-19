@@ -5,6 +5,10 @@
 	font-family: 'Bree Serif', serif;
 
 }
+.busca{
+	margin-top: 40px;
+	width: px;
+}
 .espacamento{
 	margin-top:200px; 
 }
@@ -31,15 +35,18 @@
 }
 .textlivro{
 	color: #39c3ef;
-	text-align: center;
+	text-align: absolute;
 }
 .addcarrinho{
 		margin-bottom: 10px ; 
 		background-color:#ff8f49;
 		border-color: #ff8f49;
+		position: center;
 
 }
-.addcarinho::hover
+.addcarinho::hover{
+	color:white;
+}
 
 .tamanhobooks{
 	height: 300px;
