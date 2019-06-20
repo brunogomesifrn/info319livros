@@ -32,3 +32,21 @@
 .desc{
 	text-align: justify;
 }
+.cornavbar{
+	color: white;
+}
+.cep{
+	margin-right: 30px;
+}
+.comp{
+	margin-bottom: 20px;
+	
+}
+.comprar{
+	background-color:  #38b6ff;
+	border-color:  #38b6ff;
+}
+.table{
+	margin-bottom: 110px;
+}
+
