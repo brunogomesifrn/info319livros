@@ -1,0 +1,53 @@
+.espaco{
+	margin: 0px 0px 0px 100px;
+}
+.fonte{
+	font-family: 'Bree Serif', serif;
+
+}
+.busca{
+	margin-top: 40px;
+	width: px;
+}
+.espacamento{
+	margin-top:200px; 
+}
+.topo{
+	background-color:white;
+}
+.logo{
+
+	margin: 10px 0px 20px 0px;
+	width: 250px;
+}
+.cornavbar{
+	color: white;
+}
+.fundo1{
+	height: 900px;
+}
+.rolagemlivros{
+	text-align: center;
+	padding: 100px;
+}
+.oferta{
+	text-align: center;
+}
+.textlivro{
+	color: #39c3ef;
+	text-align: absolute;
+}
+.addcarrinho{
+		margin-bottom: 10px ; 
+		background-color:#ff8f49;
+		border-color: #ff8f49;
+		position: center;
+
+}
+.addcarinho::hover{
+	color:;
+}
+
+.tamanhobooks{
+	height: 300px;
+}
