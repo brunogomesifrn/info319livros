@@ -9,6 +9,9 @@
 
 	<link rel="stylesheet" type="text/css" href="style2.css">
 
+	<link rel="stylesheet" type="text/css" href="stylenav.css">
+
+
 	<link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -16,28 +19,35 @@
 	<nav class="fixed-top fonte">
 		<nav class="row espaco topo">
 			<div class="col-12 col-md-4">
-				<img class="logo"src="logo.png">
+			<a href="index.html"><img class="logo"src="logo.png"></a>
 			</div>
-			<div class="col-12 col-md-8">
-				<div class="busca">
-					<input type="text" name="Buscar" placeholder="Buscar">
-					<img src="imgs/busca.png">
-				</div>
-			</div>
-		</nav>
-		<nav class="row navbar bg-info">
-			<div class="col-12 col-md-4">
-				<h5 class="espaco cornavbar">Categorias</h5>
-			</div>
-			<div class="col-12 col-md-4">
-				<h5 class="espaco cornavbar"><!-- <a href="ofertas.html"> -->Ofertas</a></h5>
-			</div>
-			<div class="col-12 col-md-4">
-				<h5 class="espaco cornavbar"><!-- <a href="acessorio.html"> -->Acessórios</a></h5>
-			</div>
-		</nav>
-	</nav>
 
+			<div class="busca">
+				<form class="row form-inline">
+    			<input class="col-12 col-md-9 form-control" type="search" placeholder="O que você procura?" aria-label="Search">
+    			<button class="col-12 col-md-3 btn btn-outline-secondary" type="submit">Buscar</button>
+    	</form>
+			</div>
+		</nav>
+
+	<!-- ------------------------------------------------------------------------------------------------------ -->
+	<nav class="row nav-main navbar bg-info">
+		<ul>
+			<li class="col-12 col-md-2">
+				<a href="#" class="espaco nav-item">Categorias</a>
+				<div class="nav-content espaco">
+					<div class="nav-sub bg-info">
+						<ul>
+							<li class="espnav"><a href="#">Romance</a></li>
+							<li class="espnav"><a href="#">Aventura</a></li>
+							<li class="espnav"><a href="#">Ficção</a></li>
+						</ul>
+					</div>
+				</div>
+			</li>
+		</ul>
+   	</nav>
+	</nav>
  			<div  class="container dista">
 				<div class="row distancia">
 			<div class="col-6" >
@@ -84,7 +94,7 @@
     </tr>
     <tr>
       <th scope="row">Altura</th>
-      <td>21.00 cm</td>
+      <td>23.00 cm</td>
       
     </tr>
     <tr>
@@ -99,23 +109,23 @@
     </tr>
      <tr>
       <th scope="row">Largura</th>
-      <td>14.00 cm</td>
+      <td>16.00 cm</td>
       
     </tr>
       </tr>
     <tr>
       <th scope="row">Número de Páginas</th>
-      <td>272</td>
+      <td>480</td>
       
     </tr>
      <tr>
       <th scope="row">Peso</th>
-      <td>0.280 Kg</td>
+      <td>0.560 Kg</td>
       
     </tr>
      <tr>
       <th scope="row">Profundidade</th>
-      <td>1.70 cm</td>
+      <td>2.70 cm</td>
       
     </tr>
   </tbody>

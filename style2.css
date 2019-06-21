@@ -38,7 +38,21 @@
 .comprar{
 	background-color:  #39c3ef;
 	border-color:  #39c3ef;
+	font-family: 'Bree Serif', serif;
 }
 .distancia{
 	padding-bottom: 70px;
+}
+
+p{
+	font-family: 'Bree Serif', serif;
+}
+h3{
+	font-family: 'Bree Serif', serif;
+}
+th{
+	font-family: 'Bree Serif', serif;
+}
+td{
+	font-family: 'Bree Serif', serif;
 }
