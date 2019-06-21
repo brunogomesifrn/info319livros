@@ -20,6 +20,7 @@
 }
 
 .nav-item{
+	font-size: 20px;s
 	display: inline-block;
 	padding:15px 20px;
 	height: 40px;
@@ -27,26 +28,34 @@
 	color: white;
 }
 
+
+.nav-item:hover{
+	text-decoration: none;
+	color: #ff914d;
+}
+
+
 .nav-content{
 	position: absolute;
-	top: 50px;
+	margin-right: 40px;
 	overflow: hidden;
-	background-color:#38b6ff;
 	max-height:0; 
 }
 
+/*Cor da palavras do sit*/
 .nav-content a {
 	color: white;
 	text-decoration: none;
 
 }
 
+/*Cor da palavra : Categorias*/
 .nav-content a:hover{
 	color: #ff914d;
 }
 
 .nv-sub{
-	padding:20px;
+	padding:10px;
 }
 
 .nav-sub ul{
@@ -61,9 +70,6 @@
 
 }
 
-.nav-item:focus{
-	background-color:#;
-}
 
 .nav-item:focus ~ .nav-content{
 	max-height: 400px;

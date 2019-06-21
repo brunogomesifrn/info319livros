@@ -1,6 +1,9 @@
 .espaco{
 	margin: 0px 0px 0px 100px;
 }
+.espacolivros{
+	margin: 0px 0px 0px 40px;
+}
 .fonte{
 	font-family: 'Bree Serif', serif;
 
@@ -24,6 +27,9 @@
 }
 .fundo1{
 	height: 900px;
+}
+.tamanhoimg{
+	height: 500px;
 }
 .rolagemlivros{
 	text-align: center;
