@@ -32,3 +32,13 @@
 .desc{
 	text-align: justify;
 }
+.table{
+	margin-bottom: 100px;
+}
+.comprar{
+	background-color:  #39c3ef;
+	border-color:  #39c3ef;
+}
+.distancia{
+	padding-bottom: 70px;
+}
