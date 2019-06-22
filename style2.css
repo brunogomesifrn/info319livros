@@ -49,3 +49,10 @@ body{
 .carro{
 	padding-top: 15px;
 }
+.cep{
+	max-height: 150px;
+
+}
+.caixa{
+	border: 2px solid #ddd;
+}
