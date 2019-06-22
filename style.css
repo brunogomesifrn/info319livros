@@ -25,6 +25,9 @@
 .cornavbar{
 	color: white;
 }
+.carro{
+
+}
 .fundo1{
 	height: 900px;
 }
@@ -50,7 +53,7 @@
 
 }
 .addcarinho::hover{
-	color:;
+	color:#39c3ef;
 }
 
 .tamanhobooks{
