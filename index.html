@@ -5,6 +5,8 @@
 
 	<meta charset="utf-8">
 
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -19,17 +21,19 @@
 </head>
 <body>
 	<!-- NavBar -->
-	<nav class="fixed-top fonte">
+	<nav class="fonte fixed-top bg-white">
 		<nav class="row espaco topo">
-			<div class="col-12 col-md-4">
+			<div class="col-8 col-md-4">
 			<a href="index.html"><img class="logo"src="logo.png"></a>
 			</div>
-
-			<div class="busca">
-				<form class="row form-inline">
-    			<input class="col-12 col-md-9 form-control" type="search" placeholder="Buscar" aria-label="Search">
-    			<button class="col-12 col-md-3 btn btn-outline-secondary" type="submit">Buscar</button>
-    	</form>
+				<form class="offset-1 form-inline">
+	    			<input class="col-9 col-md-8 form-control" type="search" placeholder="Buscar" aria-label="Search">
+	    			<button class="col-3 col-md-3 btn btn-outline-secondary" type="submit">Buscar</button>
+    			</form>
+    		</br>
+				<div class="carro offset-2 col-12 col-md-2">
+					<a href="carro.html"><img class="carro"src="carro.png"></a>
+				</div>
 			</div>
 		</nav>
 
@@ -44,12 +48,20 @@
 							<li class="espnav"><a href="#">Romance</a></li>
 							<li class="espnav"><a href="#">Aventura</a></li>
 							<li class="espnav"><a href="#">Ficção</a></li>
+							<li class="espnav"><a href="#">Fantasia</a></li>
+							<li class="espnav"><a href="#">Infanto Juvenil</a></li>
+							<li class="espnav"><a href="#">Paradidáticos</a></li>
 						</ul>
 					</div>
 				</div>
 			</li>
 		</ul>
-   	</nav>
+		<ul class="col-12 col-md-3">
+			<li><a href="login.html" class="nav-item">login</a></li>
+			<li><a href="logout.html" class="nav-item">logout</a></li>
+			<li><a href="cadastro.html" class="nav-item">Cadastro</a></li>
+		</ul>
+		</nav>
 	</nav>
 
 		<!-- Paginação -->
@@ -79,8 +91,7 @@
 		</div>
 		<hr/>
 
- 		<div>
- 			<div class="row">
+		<div>
  				<h4 class="col oferta">Ofertas</h4>
  			</div>
  		</br>
@@ -92,66 +103,66 @@
  			<div class="row espacolivros">
  				<div class="col-md-3 col-sm-6 col-12">
  					<a href="a_sutiu_arte_de_ligar_o_fodase.html"><img class="img-fluid tamanhobooks"src="books/ima1.jpg"></a>
- 					<h6 class="textlivro">A sutíl arte de ligar o foda-se</h6>
+ 					<h6 class="textlivro">A Sutíl Arte de Ligar o Foda-se</h6>
  					<h6 class="textlivro">R$ xx,xx</h6>
  					<button type="button" class="addcarrinho btn">Adicionar ao carrinho</button>
 
  				</div>
  				<div class="col-md-3 col-sm-6 col-12">
- 					<a href="a_sutiu_arte_de_ligar_o_fodase.html"><img class="img-fluid tamanhobooks"src="books/ima2.jpg"></a>
- 					<h6 class="textlivro">Livro2</h6>
+ 					<a href="a_cinco_passos_de_voce.html"><img class="img-fluid tamanhobooks"src="books/ima2.jpg"></a>
+ 					<h6 class="textlivro">A Cinco Passos de Você</h6>
  					<h6 class="textlivro">R$ xx,xx</h6>
  					<button type="button" class="addcarrinho btn">Adicionar ao carrinho</button>
 
  				</div>
  				<div class="col-md-3 col-sm-6 col-12">
- 					<img class="img-fluid tamanhobooks"src="books/ima3.jpg">
- 					<h6 class="textlivro">Livro3</h6>
+ 					<a href="a_revolucao_dos_bichos.html"><img class="img-fluid tamanhobooks"src="books/ima3.jpg"></a>
+ 					<h6 class="textlivro">Revolução dos Bichos</h6>
  					<h6 class="textlivro">R$ xx,xx</h6>
  					<button type="button" class="addcarrinho btn">Adicionar ao carrinho</button>
   				</div>
  				<div class="col-md-3 col-sm-6 col-12">
- 					<img class="img-fluid tamanhobooks"src="books/ima4.jpg">
- 					<h6 class="textlivro">Livro4</h6>
+ 					<a href="#.html"><img class="img-fluid tamanhobooks"src="books/ima4.jpg"></a>
+ 					<h6 class="textlivro">O Conto da Aia</h6>
  					<h6 class="textlivro">R$ xx,xx</h6>
  					<button type="button" class="addcarrinho btn">Adicionar ao carrinho</button>
 				</div>
  				<div class="col-md-3 col-sm-6 col-12">
- 					<img class="img-fluid tamanhobooks"src="books/ima5.jpeg">
- 					<h6 class="textlivro">Livro5</h6>
+ 					<a href="#.html"><img class="img-fluid tamanhobooks"src="books/ima5.jpeg"></a>
+ 					<h6 class="textlivro">Por Lugares Incríveis</h6>
  					<h6 class="textlivro">R$ xx,xx</h6>
  					<button type="button" class="addcarrinho btn">Adicionar ao carrinho</button>
  				</div>
  				<div class="col-md-3 col-sm-6 col-12">
- 					<img class="img-fluid tamanhobooks"src="books/ima6.png">
- 					<h6 class="textlivro">Livro6</h6>
+ 					<a href="#.html"><img class="img-fluid tamanhobooks"src="books/ima6.png"></a>
+ 					<h6 class="textlivro">O Corvo</h6>
  					<h6 class="textlivro">R$ xx,xx</h6>
  					<button type="button" class="addcarrinho btn">Adicionar ao carrinho</button>
  				</div>
  				<div class="col-md-3 col-sm-6 col-12">
- 					<img class="img-fluid tamanhobooks"src="books/ima7.jpeg">
- 					<h6 class="textlivro">Livro6</h6>
+ 					<a href="#.html"><img class="img-fluid tamanhobooks"src="books/ima7.jpeg"></a>
+ 					<h6 class="textlivro">A Menina que Roubava Livros</h6>
  					<h6 class="textlivro">R$ xx,xx</h6>
  					<button type="button" class="addcarrinho btn">Adicionar ao carrinho</button>
  				</div>
  				<div class="col-md-3 col-sm-6 col-12">
- 					<img class="img-fluid tamanhobooks"src="books/ima8.jpeg">
- 					<h6 class="textlivro">Livro6</h6>
+ 					<a href="#.html"><img class="img-fluid tamanhobooks"src="books/ima8.jpeg">
+ 					<h6 class="textlivro">Cinquenta Tons mais Escuros</h6>
  					<h6 class="textlivro">R$ xx,xx</h6>
  					<button type="button" class="addcarrinho btn">Adicionar ao carrinho</button>
  				</div>
- 				<div class="col-md-3 col-sm-6 col-12">
+ 				<!-- <div class="col-md-3 col-sm-6 col-12">
  					<img class="img-fluid tamanhobooks"src="books/ima9.png">
- 					<h6 class="textlivro">Livro6</h6>
+ 					<h6 class="textlivro">Sobre Histórias</h6>
  					<h6 class="textlivro">R$ xx,xx</h6>
  					<button type="button" class="addcarrinho btn">Adicionar ao carrinho</button>
  				</div>
  				<div class="col-md-3 col-sm-6 col-12">
  					<img class="img-fluid tamanhobooks"src="books/ima10.jpg">
- 					<h6 class="textlivro">Livro6</h6>
+ 					<h6 class="textlivro">O Poder do Hábito</h6>
  					<h6 class="textlivro">R$ xx,xx</h6>
  					<button type="button" class="addcarrinho btn">Adicionar ao carrinho</button>
- 				</div>
+ 				</div> -->
  			</div>
  		</div>
  		<footer>

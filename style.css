@@ -8,8 +8,13 @@
 	font-family: 'Bree Serif', serif;
 
 }
+.espaco-direito{
+}
 .busca{
 	margin-top: 40px;
+}
+.carro{
+	padding-top: 15px;
 }
 .espacamento{
 	margin-top:200px; 
@@ -25,11 +30,14 @@
 .cornavbar{
 	color: white;
 }
+.carro{
+
+}
 .fundo1{
 	height: 900px;
 }
 .tamanhoimg{
-	height: 500px;
+	height: 300px;
 }
 .rolagemlivros{
 	text-align: center;
@@ -50,7 +58,7 @@
 
 }
 .addcarinho::hover{
-	color:;
+	color:#39c3ef;
 }
 
 .tamanhobooks{
