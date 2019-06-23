@@ -56,3 +56,15 @@ body{
 .caixa{
 	border: 2px solid #ddd;
 }
+.form{
+	text-align: center;
+	margin-top: 70px;
+	border: 2px solid #ddd;
+}
+.espa{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.imagem{
+	height: 100px;
+}
