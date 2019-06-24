@@ -60,6 +60,8 @@ body{
 	text-align: center;
 	margin-top: 70px;
 	border: 2px solid #ddd;
+	border-radius: 10px;
+
 }
 .espa{
 	margin-top: 10px;
@@ -67,4 +69,9 @@ body{
 }
 .imagem{
 	height: 100px;
+	margin-top: 20px;
 }
+.alinha{
+	text-align: center;
+
+
