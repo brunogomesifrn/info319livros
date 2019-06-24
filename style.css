@@ -30,9 +30,6 @@
 .cornavbar{
 	color: white;
 }
-.carro{
-
-}
 .fundo1{
 	height: 900px;
 }
@@ -63,4 +60,7 @@
 
 .tamanhobooks{
 	height: 300px;
+}
+.fim{
+	padding-top: 10px;
 }
