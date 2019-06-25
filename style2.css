@@ -1,0 +1,81 @@
+.tamanhoima{
+	height: 400px;
+	padding: 0px 100px 10px 100px ;
+}
+.dista{
+	margin-top: 200px;
+
+}
+.logo{
+	margin: 10px 0px 20px 0px;
+	width: 250px;
+}
+.cab{
+	color: white;
+	margin: 0px 0px 0px 100px;
+}
+.logo{
+
+	margin: 10px 0px 20px 0px;
+	width: 250px;
+}
+.espaco{
+	margin: 0px 0px 0px 100px;
+}
+.topo{
+	background-color:white;
+}
+.busca{
+	margin-top: 40px;
+	width: px;
+}
+.desc{
+	text-align: justify;
+}
+.table{
+	margin-bottom: 100px;
+}
+.comprar{
+	background-color:  #39c3ef;
+	border-color:  #39c3ef;
+
+}
+.distancia{
+	padding-bottom: 70px;
+}
+body{
+	font-family: 'Bree Serif', serif;
+}
+.carro{
+	padding-top: 15px;
+}
+.cep{
+	max-height: 150px;
+
+}
+.caixa{
+	border: 3px solid #ddd;
+}
+.form{
+	text-align: center;
+	margin-top: 70px;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+
+}
+.espa{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.imagem{
+	height: 100px;
+	margin-top: 20px;
+}
+.center{
+	text-align: center;
+
+	margin-bottom: 100px;
+
+} 
+
+
