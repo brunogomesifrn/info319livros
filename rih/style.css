@@ -1,0 +1,66 @@
+.espaco{
+	margin: 0px 0px 0px 100px;
+}
+.espacolivros{
+	margin: 0px 0px 0px 40px;
+}
+.fonte{
+	font-family: 'Bree Serif', serif;
+
+}
+.espaco-direito{
+}
+.busca{
+	margin-top: 40px;
+}
+.carro{
+	padding-top: 15px;
+}
+.espacamento{
+	margin-top:200px; 
+}
+.topo{
+	background-color:white;
+}
+.logo{
+
+	margin: 10px 0px 20px 0px;
+	width: 250px;
+}
+.cornavbar{
+	color: white;
+}
+.carro{
+
+}
+.fundo1{
+	height: 900px;
+}
+.tamanhoimg{
+	height: 300px;
+}
+.rolagemlivros{
+	text-align: center;
+	padding: 100px;
+}
+.oferta{
+	text-align: center;
+}
+.textlivro{
+	color: #39c3ef;
+	text-align: absolute;
+}
+.addcarrinho{
+		margin-bottom: 10px ; 
+		background-color:#ff8f49;
+		border-color: #ff8f49;
+		position: center;
+
+}
+.addcarinho::hover{
+	color:#39c3ef;
+}
+
+.tamanhobooks{
+	height: 300px;
+}

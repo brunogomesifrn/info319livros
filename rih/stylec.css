@@ -1,0 +1,122 @@
+.bt {
+background-color: #0000FF;
+border:1px solid #25692A;
+border-radius:10px;
+display:inline-block;
+cursor:pointer;
+font-family:Verdana;
+font-weight:bold;
+font-size:13px;
+padding:6px 10px;
+text-decoration:none;
+}
+.nav-main .logo{
+	float: left;
+	height: 40px;
+	padding:15px 30px;
+	font-size: 1.4em;
+	line-height: 40px;
+
+}
+
+.nav-main > ul{
+	margin: 0;
+	padding:0;
+	float: left;
+	list-style-type: none;
+
+}
+
+.nav-main > ul > li{
+	float: left;
+}
+
+.nav-item{
+	font-size: 20px;s
+	display: inline-block;
+	padding:15px 20px;
+	height: 40px;
+	line-height: 10px;
+	color: white;
+	font-family: 'Bree Serif', serif;
+}
+
+
+.nav-item:hover{
+	text-decoration: none;
+	color: #ff914d;
+}
+
+
+.nav-content{
+	position: absolute;
+	margin-right: 40px;
+	overflow: hidden;
+	max-height:0; 
+}
+
+/*Cor da palavras do sit*/
+.nav-content a {
+	color: white;
+	text-decoration: none;
+
+}
+
+/*Cor da palavra : Categorias*/
+.nav-content a:hover{
+	color: #ff914d;
+}
+
+.nv-sub{
+	padding:10px;
+}
+
+.nav-sub ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.nav-sub ul li a{
+	display: inline-block;
+	padding: 5px 0;
+
+}
+
+
+.nav-item:focus ~ .nav-content{
+	max-height: 400px;
+	-webkit-transition:max-height 0.4s ease-in;
+	-moz-transition:max-height 0.4s ease-in;
+	transition:max-height 0.4s ease-in;
+}
+
+.espnav{
+	margin: 10px 20px;
+	position: center;
+}
+.number{
+	width: 100px;
+}
+.produto{
+	height: 100px;
+	padding: 0px 100px 10px 100px ;
+
+}
+.teste{
+	text-align: center;
+}
+
+.p1{
+	margin-top: 40px;
+}
+.cont{
+	margin-top: 170px;
+}
+.botao{
+	margin-top: 180px;
+}
+.compra{
+	background-color:  #39c3ef;
+	border-color:  #39c3ef;
+}

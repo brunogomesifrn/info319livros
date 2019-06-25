@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lugian: Livaria Online</title>
+	<title>Carrinho</title>
 
 	<meta charset="utf-8">
 
@@ -9,17 +9,20 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<link rel="stylesheet" type="text/css" href="css/stylenav.css">
 
+	<link rel="stylesheet" type="text/css" href="css/stylec.css">
+
 	<link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
 
-	<link rel="icon" type="imagem/png" href="img/icone.png">
+	<link rel="icon" type="imagem/png" href="icone.png">
 
 
 </head>
 <body>
+
 	<!-- NavBar -->
 	<nav class="fonte fixed-top bg-white">
 		<nav class="row espaco topo">
@@ -62,40 +65,52 @@
 
 		</div>
    	</nav>
-
-<div class="container ">
-	<div class="row ">
-		<div class="col-4">
-			
-		</div>
-			<div class="col-4 form" >
-   
-   		<form class="">
-   			<img src="img/avatar.png" class="imagem">
-   			<h4 class="espa">Entrar</h4>
-   			<p>Email:
-   				<input type="email" name="email" class="espa" placeholder="Ex: exemplo@email.com">
-   			</p>
-   			<P>Senha:
-   				<input type="password" name="senha" placeholder="********">
-   			</P>
-   			<div class="espa">
-   			<button type="botton" class="btn-lg comprar ">ENTRAR</button>
-   		</div>
-   		</form>
+		<div class="container lugianLivrariaonline">
+			<div class="row">
+				<a class="brand" href="#"></a>
+				<a class="button button-primary u-pull-right lugianLivrariaonline_viewCart">
+					<i class="fa fa-shopping-cat"></i><span class="simplecart_total"></span>
+				</a>
 			</div>
-	<div class="col-4">
-		
-	</div>
-	
+			<div class="lugianLivrariaonline_container"></div>
+		</div>
 
-	</div>
-</div>
- 		<footer>
- 			<div class="row rodape">
- 				<img src="">
- 			</div>
- 		</footer>
+		<div class="container">
+			<br>
+			<div class="row">
+		<div class="col-2 ">
+			<div class="teste">
+			<h3>Produto</h3>
+			<hr>
+			<img src="img/ima1.jpg" class="img-fluid produto"></div>
+			<p>A Sutiu Arte de Ligar o Foda-se</p>
+		</div>
+		<div class="col-2">
+			<div class="teste">
+			<h3>Quantidade</h3>
+			<hr>
+				<input type="number" name="numero" class="number" />
+			</div>
+		</div>
+		<div class="col-2">
+			<div class="teste">
+			<h3>Entrega</h3>
+			<hr>
+			<p class="p1">Frete gratis!!</p>
+		</div>
+		</div>
+
+		<div class="col-3">
+			<div>
+			<h3>Preço</h3>
+			<hr>
+		<div class="espacoo ">
+		<button type="button" class="finalizarcompra">Finalizar Compra</button>
+	    <button  type="button"  class="remover">Remover</button>
+			</div></div>
+		</div>
+			</div>
+		
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
