@@ -124,6 +124,8 @@ text-decoration:none;
 .down{
 	margin-top: 200px;
 }
-.bb{
-	text-align: center;
+.info {
+	border-color: #2f80e7;
+	color: #FFF;
+	background-color: #5d9cec;
 }
