@@ -105,6 +105,7 @@ text-decoration:none;
 }
 .teste{
 	text-align: center;
+	margin-top: 20px;
 }
 
 .p1{
@@ -122,4 +123,7 @@ text-decoration:none;
 }
 .down{
 	margin-top: 200px;
+}
+.bb{
+	text-align: center;
 }
